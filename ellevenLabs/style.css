@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "e4af27";
+  src: url("./fonts/e4af272ccee01ff0-s.p.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR-Waldenburg";
+  src: url("./fonts/KMR-Waldenburg-Buch-latin.1f7863d3c4317f3d.woff2")
+    format("woff2");
+
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: KMR-Waldenburg;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper .wrapper-child {
+  height: 100vh;
+  width: 50vw;
+}
+
+#wrapper .left {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#wrapper .right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#wrapper .right .form {
+  height: 50vh;
+  width: 100%;
+
+  padding-left: 5rem;
+}
+
+.form .header {
+  height: 30%;
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.form .header h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.form .header h3 {
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.form .body {
+  height: 60%;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.form .body div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper .wrapper-child {
+  height: 100vh;
+  width: 50vw;
+}
+
+#wrapper .left {
+  background-color: #1c1c1c;
+}
+
+#wrapper .right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#wrapper .right .form {
+  height: 50vh;
+  width: 100%;
+
+  padding-left: 5rem;
+}
+
+.form .header {
+  height: 30%;
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.form .header h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.form .header h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.form .body {
+  height: 60%;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.form .body div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .body div label {
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.form .body div input {
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid gainsboro;
+  font-size: 0.9rem;
+}
+
+.form .footer {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#next-btn {
+  border-radius: 3rem;
+  width: 4.5rem;
+  height: 100%;
+  border: none;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#next-btn:hover {
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+#next-btn:active {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  transform: scale(0.9);
+  transform: translateY(-0.1rem);
+}
+
+.form .footer {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form .footer div {
+  height: 100%;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .footer .flag {
+  height: 15%;
+  width: 4rem;
+  background-color: gray;
+
+  border-radius: 1rem;
+}
+
+.form .footer .dark-flag {
+  height: 15%;
+  width: 4rem;
+  background-color: black;
+
+  border-radius: 1rem;
+}
+
+.form .footer .flag-right {
+  display: flex;
+  padding-right: 1rem;
+}
+
+#wrapper .wrapper-grand-child {
+  color: white;
+  height: 50%;
+  width: 100%;
+}
+
+#wrapper .top {
+  padding: 4rem;
+}
+
+#wrapper .top .wrapper-gct-top {
+  margin-bottom: 3rem;
+}
+
+
+
+#wrapper .top .wrapper-gct-bottom h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+#wrapper .top .wrapper-gct-bottom ul {
+  list-style-type: none;
+}
+
+#wrapper .top .wrapper-gct-bottom ul li {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#wrapper .bottom .wrapper-gcb-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
